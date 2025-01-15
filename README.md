@@ -4,6 +4,13 @@
 Prosty system bankowy implementujący podstawowe funkcje bankowości internetowej i obsługi bankomatu.
 Napisany przez Bruna Popławskiego, nr albumu: 167884
 
+Program napisany w linuxie pod javą 21
+```shell
+$ java --version
+openjdk 21.0.6 2025-01-21
+OpenJDK Runtime Environment (build 21.0.6+1-void-r1)
+OpenJDK 64-Bit Server VM (build 21.0.6+1-void-r1, mixed mode, sharing)
+```
 
 ## Struktura Systemu
 

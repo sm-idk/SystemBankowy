@@ -1,29 +1,5 @@
 @startuml
 package "Dane Początkowe" {
-    note "Przykładowe konta:
-
-    Konto 1:
-    - Login: user1
-    - Hasło: pass1 
-    - Imię: Jan
-    - Nazwisko: Kowalski
-    - Nr konta: 0001
-    - Nr karty: 01
-    - PIN: 1234
-    - Saldo: 1000 PLN
-
-    Konto 2:
-    - Login: user2
-    - Hasło: pass2
-    - Imię: Anna 
-    - Nazwisko: Nowak
-    - Nr konta: 0002
-    - Nr karty: 02
-    - PIN: 1234
-    - Saldo: 1000 PLN
-
-    Admin:
-    - Hasło: admin" as DanePoczatkowe
+    note "Przykładowe konta:\n\nKonto 1:\n- Login: user1\n- Hasło: pass1\n- Imię: Jan\n- Nazwisko: Kowalski\n- Nr konta: 0001\n- Nr karty: 01\n- PIN: 1234\n- Saldo: 1000 PLN\n\nKonto 2:\n- Login: user2\n- Hasło: pass2\n- Imię: Anna\n- Nazwisko: Nowak\n- Nr konta: 0002\n- Nr karty: 02\n- PIN: 1234\n- Saldo: 1000 PLN\n\nAdmin:\n- Hasło: admin" as DanePoczatkowe
 }
-
 @enduml
