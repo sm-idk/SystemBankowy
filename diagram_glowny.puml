@@ -1,0 +1,12 @@
+@startuml
+MenuGlowne --> BankowoscInternetowa
+BankowoscInternetowa --> Bankomat
+Bankomat --> PanelAdmina
+
+MenuGlowne --> ScenariuszBI
+MenuGlowne --> ScenariuszBankomat
+MenuGlowne --> ScenariuszAdmin
+
+SystemBankowy +-- Konto
+SystemBankowy +-- Transakcja
+@enduml

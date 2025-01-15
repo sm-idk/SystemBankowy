@@ -1,0 +1,34 @@
+@startuml
+package "Struktura Systemu" {
+    class SystemBankowy {
+        - {static} Scanner skaner
+        - {static} List<Konto> konta
+        - {static} List<Transakcja> transakcje
+        - {static} Konto zalogowanyUzytkownik
+        - {static} String aktualnyNumerKarty
+    }
+
+    class Konto {
+        + String login
+        + String haslo
+        + String imie
+        + String nazwisko
+        + float saldo
+        + String numerKonta
+        + String numerKarty
+        + String pin
+        + Konto(login: String, haslo: String, imie: String, nazwisko: String)
+        - generujNumerKonta(): String
+        - generujNumerKarty(): String
+        - generujPin(): String
+    }
+
+    class Transakcja {
+        + String nadawca
+        + String odbiorca
+        + float kwota
+        + boolean zatwierdzona
+        + Transakcja(nadawca: String, odbiorca: String, kwota: float)
+    }
+}
+@enduml

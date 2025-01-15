@@ -1,0 +1,25 @@
+@startuml
+package "Struktura Menu" {
+    rectangle "Menu Główne" as MenuGlowne {
+        note "=== SYSTEM BANKOWY ===\n1. Bankowość internetowa\n2. Bankomat\n3. Panel administratora\n0. Wyjście" as OpcjeMenuGlownego
+    }
+
+    rectangle "Bankowość Internetowa" as BankowoscInternetowa {
+        note "=== BANKOWOŚĆ INTERNETOWA ===\nBez logowania:\n1. Logowanie\n2. Rejestracja\n0. Powrót" as BankInternetBezLogowania
+
+        note "=== PANEL KLIENTA ===\nPo zalogowaniu:\n1. Sprawdź saldo\n2. Wykonaj przelew\n3. Historia transakcji\n4. Zmień dane\n0. Wyloguj" as BankInternetPoLogowaniu
+    }
+
+    rectangle "Bankomat" as Bankomat {
+        note "=== BANKOMAT ===\nBez karty:\nPodaj numer karty (0 aby wyjść)\nPodaj PIN" as BankomatBezKarty
+
+        note "=== OPERACJE BANKOMATOWE ===\nZ kartą:\n1. Wypłata\n2. Wpłata\n3. Sprawdź saldo\n4. Zmień PIN\n0. Wysuń kartę" as BankomatZKarta
+    }
+
+    rectangle "Panel Administratora" as PanelAdmina {
+        note "=== PANEL ADMINISTRATORA ===\nLogowanie:\nPodaj hasło administratora" as LoginAdmina
+
+        note "=== PANEL ADMINISTRATORA ===\nPo zalogowaniu:\n1. Lista klientów\n2. Lista transakcji\n0. Wyloguj" as OpcjeAdmina
+    }
+}
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+package "Przykładowe Scenariusze" {
+    rectangle "Bankowość Internetowa - Scenariusz" as ScenariuszBI {
+        note "1. Wybierz 'Bankowość internetowa'\n2. Zaloguj się (user1/pass1)\n3. Sprawdź saldo\n4. Wykonaj przelew na konto 0002\n5. Sprawdź historię transakcji\n6. Wyloguj" as PrzykladBI
+    }
+
+    rectangle "Bankomat - Scenariusz" as ScenariuszBankomat {
+        note "1. Wybierz 'Bankomat'\n2. Wprowadź kartę (01)\n3. Wprowadź PIN (1234)\n4. Wpłać pieniądze\n5. Sprawdź saldo\n6. Wysuń kartę" as PrzykladBankomat
+    }
+
+    rectangle "Panel Admina - Scenariusz" as ScenariuszAdmin {
+        note "1. Wybierz 'Panel administratora'\n2. Wprowadź hasło (admin)\n3. Wyświetl listę klientów\n4. Wyświetl listę transakcji\n5. Wyloguj" as PrzykladAdmin
+    }
+}
+@enduml
