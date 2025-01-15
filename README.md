@@ -62,9 +62,3 @@ $ java Bank.java
 - Obsługa walut (tylko PLN)
 - System weryfikacji przelewów przez admina
 - Blokowanie środków podczas przelewu
-
-
-
-## Dane testowe / początkowe
-
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/PlantUML/dane_poczatkowe.puml)
