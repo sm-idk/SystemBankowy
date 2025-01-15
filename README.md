@@ -41,6 +41,24 @@ java Bank.java
 - Obsługa bankomatu (wpłaty, wypłaty, zmiana PIN)
 - Panel administratora (podgląd klientów i transakcji)
 
+# Limitacje implementacji systemu bankowego
+
+## Oryginalne zadanie znajduje się w repozytorium [Magistra Artura Petrusiewicza](https://github.com/pecix/), pod nazwą [Bank.pdf](https://github.com/pecix/exercises-java/blob/main/Tasks/Bank.pdf)
+
+## Główne uproszczenia
+- Numery kont 4-cyfrowe (zamiast 26)
+- Numery kart 2-cyfrowe (zamiast 6)
+- Brak persystencji danych
+- PIN zawsze "1234"
+
+## Pominięte wymagania
+- Walidacja danych (email, hasło, PESEL)
+- Dodatkowe dane klienta (adres, data urodzenia)
+- Obsługa walut (tylko PLN)
+- System weryfikacji przelewów przez admina
+- Blokowanie środków podczas przelewu
+
+
 
 ## Dane testowe / początkowe
 
