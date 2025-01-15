@@ -14,24 +14,29 @@ OpenJDK 64-Bit Server VM (build 21.0.6+1-void-r1, mixed mode, sharing)
 
 ## Struktura Systemu
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/struktura_systemu.puml)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/PlantUML/struktura_systemu.puml)
 
 
 ## Struktura Menu
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/struktura_menu.puml)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/PlantUML/struktura_menu.puml)
 
 
 ## Przykładowe Scenariusze Użycia
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/przyklady_uzycia.puml)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/PlantUML/przyklady_uzycia.puml)
+
+
+## Dane testowe / początkowe
+
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/PlantUML/dane_poczatkowe.puml)
 
 
 ## Jak uruchomić
 
 Uruchom program:
-```bash
-java Bank.java
+```shell
+$ java Bank.java
 ```
 
 
@@ -62,4 +67,4 @@ java Bank.java
 
 ## Dane testowe / początkowe
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/dane_poczatkowe.puml)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/sm-idk/SystemBankowy/master/PlantUML/dane_poczatkowe.puml)
