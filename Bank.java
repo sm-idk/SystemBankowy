@@ -164,12 +164,16 @@ public class Bank {
                         System.out.println("Brak wystarczających środków!");
                     }
                     break;
-                case 2:
-                    System.out.print("Podaj kwotę do wpłaty: ");
-                    float kwotaWplaty = scanner.nextFloat();
-                    zalogowanyUzytkownik.saldo += kwotaWplaty;
-                    System.out.println("Wpłacono: " + kwotaWplaty + " PLN");
-                    break;
+                    case 2:
+                        System.out.print("Podaj kwotę do wpłaty: ");
+                        float kwotaWplaty = scanner.nextFloat();
+                        if (kwotaWplaty <= 0) {
+                            System.out.println("Kwota wpłaty musi być większa od 0!");
+                        } else {
+                            zalogowanyUzytkownik.saldo += kwotaWplaty;
+                            System.out.println("Wpłacono: " + kwotaWplaty + " PLN");
+                        }
+                        break;
                 case 3:
                     System.out.println(
                         "Saldo: " + zalogowanyUzytkownik.saldo + " PLN"
